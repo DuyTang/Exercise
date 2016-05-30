@@ -14,6 +14,14 @@
 		F36BA8431CFA0500007C8E72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36BA8411CFA0500007C8E72 /* LaunchScreen.storyboard */; };
 		F36BA84E1CFA0500007C8E72 /* ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BA84D1CFA0500007C8E72 /* ExerciseTests.swift */; };
 		F36BA8591CFA0500007C8E72 /* ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BA8581CFA0500007C8E72 /* ExerciseUITests.swift */; };
+		F36BA8671CFA06F1007C8E72 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BA8661CFA06F1007C8E72 /* MainViewController.swift */; };
+		F36BA8691CFA096A007C8E72 /* CustomerManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BA8681CFA096A007C8E72 /* CustomerManagement.swift */; };
+		F36BA86C1CFA0AE7007C8E72 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BA86A1CFA0AE7007C8E72 /* MyTableViewCell.swift */; };
+		F36BA86D1CFA0AE7007C8E72 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F36BA86B1CFA0AE7007C8E72 /* MyTableViewCell.xib */; };
+		F36BA86F1CFA11B5007C8E72 /* AddCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36BA86E1CFA11B5007C8E72 /* AddCustomerViewController.swift */; };
+		F3ADCC081CFBC2DA00C68181 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ADCC071CFBC2DA00C68181 /* RegisterViewController.swift */; };
+		F3ADCC0C1CFBCC2600C68181 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ADCC0B1CFBCC2600C68181 /* UpdateViewController.swift */; };
+		F3BD13F61CFA9F81004F5F21 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD13F51CFA9F81004F5F21 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		F36BA8541CFA0500007C8E72 /* ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36BA8581CFA0500007C8E72 /* ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseUITests.swift; sourceTree = "<group>"; };
 		F36BA85A1CFA0500007C8E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36BA8661CFA06F1007C8E72 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F36BA8681CFA096A007C8E72 /* CustomerManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerManagement.swift; sourceTree = "<group>"; };
+		F36BA86A1CFA0AE7007C8E72 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		F36BA86B1CFA0AE7007C8E72 /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		F36BA86E1CFA11B5007C8E72 /* AddCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCustomerViewController.swift; sourceTree = "<group>"; };
+		F3ADCC071CFBC2DA00C68181 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F3ADCC0B1CFBCC2600C68181 /* UpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		F3BD13F51CFA9F81004F5F21 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = ../../../Downloads/UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +113,20 @@
 		F36BA8371CFA0500007C8E72 /* Exercise */ = {
 			isa = PBXGroup;
 			children = (
+				F3BD13F51CFA9F81004F5F21 /* UIColor.swift */,
 				F36BA8381CFA0500007C8E72 /* AppDelegate.swift */,
 				F36BA83A1CFA0500007C8E72 /* ViewController.swift */,
+				F3ADCC071CFBC2DA00C68181 /* RegisterViewController.swift */,
+				F36BA8661CFA06F1007C8E72 /* MainViewController.swift */,
+				F36BA86E1CFA11B5007C8E72 /* AddCustomerViewController.swift */,
+				F3ADCC0B1CFBCC2600C68181 /* UpdateViewController.swift */,
 				F36BA83C1CFA0500007C8E72 /* Main.storyboard */,
 				F36BA83F1CFA0500007C8E72 /* Assets.xcassets */,
 				F36BA8411CFA0500007C8E72 /* LaunchScreen.storyboard */,
 				F36BA8441CFA0500007C8E72 /* Info.plist */,
+				F36BA8681CFA096A007C8E72 /* CustomerManagement.swift */,
+				F36BA86A1CFA0AE7007C8E72 /* MyTableViewCell.swift */,
+				F36BA86B1CFA0AE7007C8E72 /* MyTableViewCell.xib */,
 			);
 			path = Exercise;
 			sourceTree = "<group>";
@@ -230,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F36BA8431CFA0500007C8E72 /* LaunchScreen.storyboard in Resources */,
+				F36BA86D1CFA0AE7007C8E72 /* MyTableViewCell.xib in Resources */,
 				F36BA8401CFA0500007C8E72 /* Assets.xcassets in Resources */,
 				F36BA83E1CFA0500007C8E72 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F36BA86F1CFA11B5007C8E72 /* AddCustomerViewController.swift in Sources */,
+				F3BD13F61CFA9F81004F5F21 /* UIColor.swift in Sources */,
+				F3ADCC0C1CFBCC2600C68181 /* UpdateViewController.swift in Sources */,
+				F36BA8671CFA06F1007C8E72 /* MainViewController.swift in Sources */,
+				F3ADCC081CFBC2DA00C68181 /* RegisterViewController.swift in Sources */,
 				F36BA83B1CFA0500007C8E72 /* ViewController.swift in Sources */,
+				F36BA8691CFA096A007C8E72 /* CustomerManagement.swift in Sources */,
+				F36BA86C1CFA0AE7007C8E72 /* MyTableViewCell.swift in Sources */,
 				F36BA8391CFA0500007C8E72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +514,7 @@
 				F36BA85F1CFA0500007C8E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F36BA8601CFA0500007C8E72 /* Build configuration list for PBXNativeTarget "ExerciseTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +523,7 @@
 				F36BA8621CFA0500007C8E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F36BA8631CFA0500007C8E72 /* Build configuration list for PBXNativeTarget "ExerciseUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +532,7 @@
 				F36BA8651CFA0500007C8E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
